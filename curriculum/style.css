@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(6, 76, 110);
+    display: block;
+    padding: auto;
+}
+
+.header_menu{
+    background-color: brown;
+    display: flex;
+    float: left;
+    position: fixed;
+    width: 15%;
+    margin-right: 2vh;
+    top: 100px;
+}
+
+.content{
+    display: flex;
+    float: none;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    max-width: 800px;
+    background-color: aqua;
+}
+
+.card_content{
+    background-color: blue;
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    align-content: center;
+    align-items: center;
+}
+
+.escudo{
+    margin: auto;
+    align-content: center;
+}
+
