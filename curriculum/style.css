@@ -8,11 +8,16 @@ body{
     padding: 0;
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
 }
 
 .header_menu{
     background-color: brown;
-    padding: 10px;
+    padding: 5px;
     }
 
 nav{
@@ -32,33 +37,32 @@ nav a{
 .content{
     display: flex;
     flex-wrap: wrap;
-    float: none;
-    position: relative;
-    background-color: aqua;
+    width: 95%;
+    background-color: rgb(85, 79, 253);
     height: 740px;
+    justify-content: center;
+    margin: auto;
 }
 
 .aside{
     background-color: antiquewhite;
-    width: 30%;
+    width: 25%;
 }
 
 .card_content{
     padding: 20px;
     background-color: blue;
-    width: 70%;
+    width: 65%;
 }
 
 .escudo{
     margin: auto;
     width: 150px;
     height:150px;
-    display: flexbox;
-    align-content: center;
+    position: relative;
     border: 10px solid black;
     border-radius: 150px;
-    position: relative;
-    top: -75px;
+    top: -55px;
     left: 75px;
 }
 
