@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(6, 76, 110);
+    background: linear-gradient(24deg, rgba(0,117,158,1) 0%, rgba(0,147,255,1) 41%, rgba(130,234,255,1) 100%);
     display: block;
     padding: 0;
     margin: 0;
@@ -16,12 +16,10 @@ h1{
 }
 
 .header_menu{
-    background-color: brown;
     padding: 5px;
     }
 
 nav{
-    background-color: aliceblue;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,30 +33,33 @@ nav{
 nav a{
     margin: 10px;
     padding: 10px;
-    background-color: bisque;
+    text-decoration: none;
+    text-align: center;    
+    width: 100px;
 }
 
 .content{
     display: flex;
     flex-wrap: wrap;
     width: 95%;
-    background-color: rgb(85, 79, 253);
 
     justify-content: center;
     margin: auto;
 }
 
 .aside{
-    background-color: antiquewhite;
     width: 30%;
     display: flex;
 }
 
 .bloque{
     padding: 20px;
-    background-color: blue;
     height: 600px;
 
+}
+
+.lista li{
+    margin-top: 5px;
 }
 
 .escudo{
@@ -69,15 +70,19 @@ nav a{
     align-self: center;
 }
 
+.descripcion{
+    text-align: center;
+}
+
 .card_aside{
-    background-color: aliceblue;
+    background: linear-gradient(24deg, rgba(185,185,185,1) 0%, rgba(227,227,227,1) 41%, rgba(255,255,255,1) 100%);
     margin: auto;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     width: 90%;
     height: 95%;
-    max-height: 600px;
+    max-height: 720px;
     border-radius: 15px;
 }
 
@@ -88,7 +93,6 @@ nav a{
 .coso{
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
     width: 60%;
 }
 
@@ -96,10 +100,8 @@ aside p{
     margin: 5px;
     margin-top: -40px;
     padding: 10px;
-    background-color: antiquewhite;
 }
 
 footer{
-    background-color: aqua;
     padding: 20px;
 }
