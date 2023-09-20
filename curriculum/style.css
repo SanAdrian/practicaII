@@ -25,7 +25,11 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
 
+}
+.fixed{
+    position: fixed;
 }
 
 nav a{
@@ -39,45 +43,58 @@ nav a{
     flex-wrap: wrap;
     width: 95%;
     background-color: rgb(85, 79, 253);
-    height: 740px;
+
     justify-content: center;
     margin: auto;
 }
 
 .aside{
     background-color: antiquewhite;
-    width: 25%;
+    width: 30%;
+    display: flex;
 }
 
-.card_content{
+.bloque{
     padding: 20px;
     background-color: blue;
-    width: 65%;
+    height: 600px;
+
 }
 
 .escudo{
-    margin: auto;
-    width: 150px;
-    height:150px;
+    width: 50%;
     position: relative;
-    border: 10px solid black;
-    border-radius: 150px;
+    border-radius: 50%;
     top: -55px;
-    left: 75px;
+    align-self: center;
 }
 
 .card_aside{
     background-color: aliceblue;
     margin: auto;
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
     width: 90%;
     height: 95%;
+    max-height: 600px;
     border-radius: 15px;
+}
+
+.subtitulo{
+    margin-top: 5px;
+}
+
+.coso{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 60%;
 }
 
 aside p{
     margin: 5px;
-    margin-top: -50px;
+    margin-top: -40px;
     padding: 10px;
     background-color: antiquewhite;
 }
