@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(24deg, rgba(185,185,185,1) 0%, rgba(227,227,227,1) 41%, rgba(255,255,255,1) 100%);
+    height: 720px;
+    text-align: center;
+}
+
+.enlaces{
+    margin-top: 50px;
+}
+
+.enlaces a{
+    background-color: azure;
+    margin: 25px;
+    padding: 10px;
+    text-decoration: none;
+
+}

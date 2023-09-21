@@ -13,6 +13,7 @@ body{
 
 h1{
     text-align: center;
+    font-family: ;
 }
 
 .header_menu{
@@ -54,7 +55,7 @@ nav a{
 
 .bloque{
     padding: 20px;
-    height: 600px;
+    height: 450px;
 
 }
 
@@ -104,4 +105,11 @@ aside p{
 
 footer{
     padding: 20px;
+    text-align: center;
+}
+
+.formulario{
+    background: linear-gradient(24deg, rgba(185,185,185,1) 0%, rgba(227,227,227,1) 41%, rgba(255,255,255,1) 100%);
+    padding: 15px;
+    border-radius: 15px;
 }
